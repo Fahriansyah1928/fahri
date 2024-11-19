@@ -5,62 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Online</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f8ff;
-            margin: 20px;
-        }
-        h1 {
-            color: #333;
-        }
-        h2 {
-            color: #555;
-            margin-top: 0;
-        }
-        p {
-            font-size: 1.1em;
-            color: #666;
-        }
-        h3 {
-            color: #444;
-            margin-top: 20px;
-        }
-        ul, ol {
-            margin-left: 20px;
-            color: #333;
-        }
-        li {
-            margin-bottom: 5px;
-        }
-        a {
-            color: #1e90ff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Media Online</h1>
-    <h2>Sosial Media Developer</h2>
-    <p>Belajar dan berbagi agar hidup menjadi lebih baik</p>
+  <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+  <div class="bg-dark p-4">
+    <h5 class="text-body-emphasis h4">Collapsed content</h5>
+    <span class="text-body-secondary">Toggleable via the navbar brand.</span>
+  </div>
+</div>
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+    <div class="container mt-5">
+      <div class="p-3 mb-2 bg-secondary text-white text-center">
+        <!-- Header -->
+        <div class="hero mb-5">
+            <h1 class="display-4">Media Online</h1>
+            <p class="lead">Belajar dan berbagi agar hidup menjadi lebih baik</p>
+        </div>
+        </div>
 
-    <h3>Benefit Join di Media Online</h3>
-    <ul>
-        <li>Mendapatkan motivasi dari sesama para Developer</li>
-        <li>Sharing knowledge</li>
-        <li>Dibuat oleh calon web developer terbaik</li>
-    </ul>
+        <!-- Benefit Section -->
+        <div class="mb-5">
+                      <ul class="list-group">
+              <div class="text-bg-secondary p-3">
+            <h3 class="text-center">Benefit Join di Media Online</h3>
+                <li class="list-group-item">Mendapatkan motivasi dari sesama para Developer</li>
+                <li class="list-group-item">Sharing knowledge</li>
+                <li class="list-group-item">Dibuat oleh calon web developer terbaik</li>
+            </ul>
+        </div>
 
-    <h3>Cara Bergabung ke Media Online</h3>
-    <ol>
-        <li>Mengunjungi Website ini</li>
-        <li>Mendaftarkan di <a href="form.html">Form Sign Up</a></li>
-        <li>Selesai</li>
-    </ol>
+        <!-- How to Join Section -->
+        <div>
+          <div class="text-bg-secondary p-3">
+            <h3 class="text-center">Cara Bergabung ke Media Online</h3>
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item">Mengunjungi Website ini</li>
+                <li class="list-group-item">
+                    Mendaftarkan di <a href="form.html"class="btn btn-light">Form Sign Up</a>
+                </li>
+                <li class="list-group-item">Selesai</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnz.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
-
-
